@@ -1,4 +1,10 @@
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/MeDuui/token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/MeDuui/token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
 # Token Radar — radar-2
+
+Built for make.fun's "Build the best token launch radar" bounty: https://make.fun/bounty/token-radar-01
 
 A token launch radar: it reads a sealed DefiLlama snapshot of 758 protocols and ranks the ones
 that could plausibly launch a token of their own by what a launch would be worth, each with a
@@ -44,7 +50,9 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.js
 
 `main.ts` (Node 22, standard library only) writes `board.json`, `data.js`, `dashboard/`,
 `screenshots/` and `dossier.json` into the output directory. It is deterministic: the same
-snapshot always writes the same bytes.
+snapshot always writes the same bytes, so the board the dashboard shows is exactly the board
+`board.json` holds — open `out/dashboard/index.html` to browse it, or read `out/board.json`
+directly for the ranked rows.
 
 ## Files
 
