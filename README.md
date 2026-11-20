@@ -7,7 +7,7 @@ $1,325.
 
 ## The model (radar-2)
 
-The board ranks 178 protocols: the snapshot's 40-protocol watchlist plus every other pre-token
+The board ranks 198 protocols: the snapshot's 40-protocol watchlist plus every other pre-token
 protocol that passes the watchlist's own rule — no wrapped, staked or bridged product of a token
 that already trades, no exchange product, no versioned pool. WBTC is Bitcoin on another chain,
 not a protocol waiting on a launch of its own.
